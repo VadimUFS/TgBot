@@ -16,15 +16,15 @@
 #Первый участник пишет сбор статистики - какие буквы сколько
 #раз встречаются.
 
-name = input('Enter a suggestion')
-book = input('Enter the letter to count')
+name = input('Enter a suggestion:')
+book = input('Enter the letter to count:')
 s = 0
 for i in name:
 	if i in book:
 		s += 1
 print(s)
 
-s = input('введите предложение')
+s = input('введите предложение:')
 i = 0
 letter = 0
 letter1 = 0
